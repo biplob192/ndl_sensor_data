@@ -18,7 +18,7 @@ Dashboard
                     <div class=" col-md-12">
                         <div class="card">
                             <div class="card-header">
-                                <h5 class="card-title"><strong>ADMIN DASHBOARD CONTANT</strong></h5>
+                                <h5 class="card-title"><strong>ADMIN DASHBOARD CONTENT</strong></h5>
                             </div>
                             <div class="card-body">
                             </div>
@@ -34,7 +34,7 @@ Dashboard
             <div class="col-md-12">
                 <div class="card">
                     <div class="card-header">
-                        <h5 class="card-title"><strong>EMPLOYEE DASHBOARD CONTANT</strong></h5>
+                        <h5 class="card-title"><strong>EMPLOYEE DASHBOARD CONTENT</strong></h5>
                     </div>
                     <div class="card-body">
                         <a href="#" class="btn btn-primary" id="check_in">Check-In Here</a>

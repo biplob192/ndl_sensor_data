@@ -41,7 +41,7 @@ Sensor-Data
                                     <th>Voltage (V)</th>
                                     <th>Current (Amp)</th>
                                     <th>Power (KWh)</th>
-                                    <th>Time</th>
+                                    <th>Date-Time</th>
                                 </tr>
                             </thead>
                             <tbody id="employee">
@@ -62,7 +62,7 @@ Sensor-Data
                                     <th>Voltage (V)</th>
                                     <th>Current (Amp)</th>
                                     <th>Power (KWh)</th>
-                                    <th>Time</th>
+                                    <th>Date-Time</th>
                                 </tr>
                             </tfoot>
                         </table>
