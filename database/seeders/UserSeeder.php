@@ -17,14 +17,14 @@ class UserSeeder extends Seeder
     {
         $admin = User::create([
             'name' => 'Admin',
-            'email' => 'admin@gmail.com',
+            'email' => 'demo@nodesdigitalbd.com',
             'phone' => '01725361208',
             'password' => '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', // password
         ]);
 
         $employee = User::create([
             'name' => 'Employee',
-            'email' => 'employee@gmail.com',
+            'email' => 'employee@nodesdigitalbd.com',
             'phone' => '01930384220',
             'password' => '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', // password
         ]);

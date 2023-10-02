@@ -12,68 +12,31 @@
     <link rel="stylesheet" href="{{asset('plugins')}}/icheck-bootstrap/icheck-bootstrap.min.css">
 
     <style>
-        body {
-            /* background-image: url('{{ asset("images/bg1.jpg") }}'); */
-            /* Replace with the actual path to your image */
-            background-size: cover;
-            /* Adjust to your preference */
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            /* This will keep the background fixed while scrolling */
-        }
-
-        .logo-container {
-            position: absolute;
-            top: 20px;
-            left: 20px;
-        }
-
-        .logo-container img {
-            max-width: 120px;
-            max-height: auto;
-        }
-
-        .card-header {
-            display: flex;
-            flex-direction: column;
-            /* Center text vertically */
-            justify-content: center;
-            /* Center text horizontally */
-            align-items: center;
-            /* Center text vertically */
-            background-color: transparent;
-            /* border-bottom: none; */
-        }
-
-        .card-header h4 {
-            font-weight: bold;
-            margin: 0;
-        }
-
         .card-header img {
             max-width: 100%;
-            max-height: 60px;
-            /* Adjust the height as needed */
-            margin-right: 20px;
-            /* Add some spacing between the logo and text */
+            /* Maximum width within the card header */
+            max-height: 100px;
+            /* Maximum height, adjust as needed */
+            display: block;
+            /* Remove any extra spacing around the image */
+            margin: auto;
+            /* Center the image horizontally within the card header */
         }
     </style>
 
 </head>
 
 <body class="hold-transition login-page">
-    <div class="logo-container">
-        <img src='{{ asset("images/ndl_logo.png") }}' alt="NDL LOGO" srcset="">
-    </div>
     <div class="login-box">
         <!-- /.login-logo -->
         <div class="card card-outline card-primary">
             <div class="card-header text-center">
-                <h4>Smart Energy Monitoring</h4>
-                {{-- <img src='{{ asset("images/ndl_logo.png") }}' alt="NDL LOGO" srcset=""> --}}
+                {{-- <h4 style="font-weight: bold">Smart Energy Monitoring</h4> --}}
+                <img src='{{ asset("images/ndl_logo.png") }}' alt="NDL LOGO" srcset="">
             </div>
             <div class="card-body">
-                <p class="login-box-msg">Sign in to start your session</p>
+                {{-- <p class="login-box-msg">Sign in to start your session</p> --}}
+                <p class="login-box-msg">Smart Energy Monitoring</p>
                 @if(session()->has('error'))
                 <p class="login-box-msg"><span style="color: red;">{{ session()->get('error') }}</span> </p>
                 @endif
